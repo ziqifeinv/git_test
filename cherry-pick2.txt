@@ -1,0 +1,1 @@
+本地合并时，需要使用cherry-pick指令，如果直接rebase master会出现直接复制master的情况。
