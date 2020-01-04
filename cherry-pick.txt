@@ -1,0 +1,5 @@
+测试分支之间的合并功能。
+
+从master分支合并到release分支去。
+
+GitHub上合并方式为创建“pull request”。
