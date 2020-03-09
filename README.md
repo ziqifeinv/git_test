@@ -9,3 +9,6 @@
   1.在远程仓库中使用“pull request”，将A指令中的change合并到B，但是会自动生成merge的change。
   2.在本地直接使用rebase A，这样会导致A覆盖B，push时会报错，按照提示pull B会自动合并，也会生成merge的change。
   3.在本地使用cherry-pick [A change]，如果存在冲突则需要手动修改，不会生成自动merge的change，推荐该办法。
+
+三.push的用法如下：
+  git push <远程主机名> <本地分支名>:<远程分支名>
